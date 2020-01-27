@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dW:/lab5part1sim
+vD_FF_negedge
+!s110 1570758756
+!i10b 1
+!s100 X?l4?GO@4FN;P3eBfQZfd1
+IMD>HzK?I[3`fAX=1zo`H=3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1570758066
+Z3 8lab5part1.v
+Z4 Flab5part1.v
+L0 30
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1570758755.000000
+Z7 !s107 lab5part1.v|
+Z8 !s90 -reportprogress|300|lab5part1.v|
+!i113 1
+Z9 tCvgOpt 0
+n@d_@f@f_negedge
+vD_FF_posedge
+Z10 !s110 1570758755
+!i10b 1
+!s100 ;=>e:GAnIP>=O]e1HgzIY1
+ITbl<<RTT_MGbL8LloCU7e0
+R1
+R0
+R2
+R3
+R4
+L0 22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@d_@f@f_posedge
+vD_latch
+R10
+!i10b 1
+!s100 :A<EGdEZ]^9dfKFgiFFJ42
+IhNOOPm=3I7S8S@K7G^cgc1
+R1
+R0
+R2
+R3
+R4
+L0 13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@d_latch
+vlab5part1
+R10
+!i10b 1
+!s100 8[QV9V=Z>PL@K;Z;ieEW03
+IdnGFg^;5GFjRT@^6S=8NX0
+R1
+R0
+R2
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9

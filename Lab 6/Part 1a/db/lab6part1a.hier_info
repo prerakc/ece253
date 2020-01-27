@@ -1,0 +1,123 @@
+|lab6part1a
+SW[0] => resetn.IN1
+SW[1] => w.IN1
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+KEY[0] => clock.IN1
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+LEDR[0] << FSM:f.port4
+LEDR[1] << FSM:f.port4
+LEDR[2] << FSM:f.port4
+LEDR[3] << FSM:f.port4
+LEDR[4] << FSM:f.port4
+LEDR[5] << FSM:f.port4
+LEDR[6] << FSM:f.port4
+LEDR[7] << FSM:f.port4
+LEDR[8] << FSM:f.port4
+LEDR[9] << FSM:f.port3
+
+
+|lab6part1a|FSM:f
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+w => Y.IN1
+clock => clock.IN9
+resetn => resetn.IN9
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= ff_reset1:y0.port2
+y[1] <= ff_reset0:y1.port2
+y[2] <= ff_reset0:y2.port2
+y[3] <= ff_reset0:y3.port2
+y[4] <= ff_reset0:y4.port2
+y[5] <= ff_reset0:y5.port2
+y[6] <= ff_reset0:y6.port2
+y[7] <= ff_reset0:y7.port2
+y[8] <= ff_reset0:y8.port2
+
+
+|lab6part1a|FSM:f|ff_reset1:y0
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y1
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y2
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y3
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y4
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y5
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y6
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y7
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+
+|lab6part1a|FSM:f|ff_reset0:y8
+clock => y~reg0.CLK
+resetn => y.OUTPUTSELECT
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y => y.DATAB
+
+

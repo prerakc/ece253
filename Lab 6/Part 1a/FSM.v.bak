@@ -1,0 +1,2 @@
+module FSM (w, clock, resetn, z);
+endmodule

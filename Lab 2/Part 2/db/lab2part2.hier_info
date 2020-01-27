@@ -1,0 +1,55 @@
+|lab2part2
+SW[0] => X[0].IN1
+SW[1] => X[1].IN1
+SW[2] => X[2].IN1
+SW[3] => X[3].IN1
+SW[4] => Y[0].IN1
+SW[5] => Y[1].IN1
+SW[6] => Y[2].IN1
+SW[7] => Y[3].IN1
+SW[8] => ~NO_FANOUT~
+SW[9] => s.IN4
+LEDR[0] <= mux2to1:u1.port3
+LEDR[1] <= mux2to1:u2.port3
+LEDR[2] <= mux2to1:u3.port3
+LEDR[3] <= mux2to1:u4.port3
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2part2|mux2to1:u1
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2part2|mux2to1:u2
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2part2|mux2to1:u3
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2part2|mux2to1:u4
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

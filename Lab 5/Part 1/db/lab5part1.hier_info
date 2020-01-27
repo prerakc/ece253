@@ -1,0 +1,26 @@
+|lab5part1
+SW[0] => clk.IN3
+SW[1] => D.IN3
+Qa <= D_latch:u0.port2
+Qb <= D_latch:u1.port2
+Qc <= D_latch:u2.port2
+
+
+|lab5part1|D_latch:u0
+D => Q$latch.DATAIN
+clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part1|D_latch:u1
+D => Q$latch.DATAIN
+clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part1|D_latch:u2
+D => Q$latch.DATAIN
+clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

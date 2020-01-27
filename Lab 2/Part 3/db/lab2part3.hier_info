@@ -1,0 +1,73 @@
+|lab2part3
+SW[0] => W[0].IN1
+SW[1] => W[1].IN1
+SW[2] => V[0].IN1
+SW[3] => V[1].IN1
+SW[4] => U[0].IN1
+SW[5] => U[1].IN1
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => s[0].IN2
+SW[9] => s[1].IN2
+LEDR[0] <= mux3to1:u1.port4
+LEDR[1] <= mux3to1:u2.port4
+LEDR[2] <= <GND>
+LEDR[3] <= <GND>
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= <GND>
+
+
+|lab2part3|mux3to1:u1
+u => u.IN1
+v => v.IN1
+w => w.IN1
+s[0] => s[0].IN1
+s[1] => s[1].IN1
+m <= mux2to1:u2.port3
+
+
+|lab2part3|mux3to1:u1|mux2to1:u1
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2part3|mux3to1:u1|mux2to1:u2
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2part3|mux3to1:u2
+u => u.IN1
+v => v.IN1
+w => w.IN1
+s[0] => s[0].IN1
+s[1] => s[1].IN1
+m <= mux2to1:u2.port3
+
+
+|lab2part3|mux3to1:u2|mux2to1:u1
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2part3|mux3to1:u2|mux2to1:u2
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

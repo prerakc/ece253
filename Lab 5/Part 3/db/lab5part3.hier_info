@@ -1,0 +1,437 @@
+|lab5part3
+SW[0] => SW[0].IN16
+SW[1] => SW[1].IN1
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+KEY[0] => KEY[0].IN16
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+HEX3[0] <= HexDisp:h0.port1
+HEX3[1] <= HexDisp:h0.port1
+HEX3[2] <= HexDisp:h0.port1
+HEX3[3] <= HexDisp:h0.port1
+HEX3[4] <= HexDisp:h0.port1
+HEX3[5] <= HexDisp:h0.port1
+HEX3[6] <= HexDisp:h0.port1
+HEX2[0] <= HexDisp:h1.port1
+HEX2[1] <= HexDisp:h1.port1
+HEX2[2] <= HexDisp:h1.port1
+HEX2[3] <= HexDisp:h1.port1
+HEX2[4] <= HexDisp:h1.port1
+HEX2[5] <= HexDisp:h1.port1
+HEX2[6] <= HexDisp:h1.port1
+HEX1[0] <= HexDisp:h2.port1
+HEX1[1] <= HexDisp:h2.port1
+HEX1[2] <= HexDisp:h2.port1
+HEX1[3] <= HexDisp:h2.port1
+HEX1[4] <= HexDisp:h2.port1
+HEX1[5] <= HexDisp:h2.port1
+HEX1[6] <= HexDisp:h2.port1
+HEX0[0] <= HexDisp:h3.port1
+HEX0[1] <= HexDisp:h3.port1
+HEX0[2] <= HexDisp:h3.port1
+HEX0[3] <= HexDisp:h3.port1
+HEX0[4] <= HexDisp:h3.port1
+HEX0[5] <= HexDisp:h3.port1
+HEX0[6] <= HexDisp:h3.port1
+
+
+|lab5part3|tff_sync_reset_enable:t1
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t2
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t3
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t4
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t5
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t6
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t7
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t8
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t9
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t10
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t11
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t12
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t13
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t14
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t15
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|tff_sync_reset_enable:t16
+clk => Q~reg0.CLK
+reset_n => Q~reg0.ACLR
+enable => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|HexDisp:h3
+in[0] => Equal0.IN3
+in[0] => Equal1.IN0
+in[0] => Equal2.IN3
+in[0] => Equal3.IN1
+in[0] => Equal4.IN3
+in[0] => Equal5.IN1
+in[0] => Equal6.IN3
+in[0] => Equal7.IN2
+in[0] => Equal8.IN3
+in[0] => Equal9.IN1
+in[0] => Equal10.IN3
+in[0] => Equal11.IN2
+in[0] => Equal12.IN3
+in[0] => Equal13.IN2
+in[0] => Equal14.IN3
+in[1] => Equal0.IN2
+in[1] => Equal1.IN3
+in[1] => Equal2.IN0
+in[1] => Equal3.IN0
+in[1] => Equal4.IN2
+in[1] => Equal5.IN3
+in[1] => Equal6.IN1
+in[1] => Equal7.IN1
+in[1] => Equal8.IN2
+in[1] => Equal9.IN3
+in[1] => Equal10.IN1
+in[1] => Equal11.IN1
+in[1] => Equal12.IN2
+in[1] => Equal13.IN3
+in[1] => Equal14.IN2
+in[2] => Equal0.IN1
+in[2] => Equal1.IN2
+in[2] => Equal2.IN2
+in[2] => Equal3.IN3
+in[2] => Equal4.IN0
+in[2] => Equal5.IN0
+in[2] => Equal6.IN0
+in[2] => Equal7.IN0
+in[2] => Equal8.IN1
+in[2] => Equal9.IN2
+in[2] => Equal10.IN2
+in[2] => Equal11.IN3
+in[2] => Equal12.IN1
+in[2] => Equal13.IN1
+in[2] => Equal14.IN1
+in[3] => Equal0.IN0
+in[3] => Equal1.IN1
+in[3] => Equal2.IN1
+in[3] => Equal3.IN2
+in[3] => Equal4.IN1
+in[3] => Equal5.IN2
+in[3] => Equal6.IN2
+in[3] => Equal7.IN3
+in[3] => Equal8.IN0
+in[3] => Equal9.IN0
+in[3] => Equal10.IN0
+in[3] => Equal11.IN0
+in[3] => Equal12.IN0
+in[3] => Equal13.IN0
+in[3] => Equal14.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|HexDisp:h2
+in[0] => Equal0.IN3
+in[0] => Equal1.IN0
+in[0] => Equal2.IN3
+in[0] => Equal3.IN1
+in[0] => Equal4.IN3
+in[0] => Equal5.IN1
+in[0] => Equal6.IN3
+in[0] => Equal7.IN2
+in[0] => Equal8.IN3
+in[0] => Equal9.IN1
+in[0] => Equal10.IN3
+in[0] => Equal11.IN2
+in[0] => Equal12.IN3
+in[0] => Equal13.IN2
+in[0] => Equal14.IN3
+in[1] => Equal0.IN2
+in[1] => Equal1.IN3
+in[1] => Equal2.IN0
+in[1] => Equal3.IN0
+in[1] => Equal4.IN2
+in[1] => Equal5.IN3
+in[1] => Equal6.IN1
+in[1] => Equal7.IN1
+in[1] => Equal8.IN2
+in[1] => Equal9.IN3
+in[1] => Equal10.IN1
+in[1] => Equal11.IN1
+in[1] => Equal12.IN2
+in[1] => Equal13.IN3
+in[1] => Equal14.IN2
+in[2] => Equal0.IN1
+in[2] => Equal1.IN2
+in[2] => Equal2.IN2
+in[2] => Equal3.IN3
+in[2] => Equal4.IN0
+in[2] => Equal5.IN0
+in[2] => Equal6.IN0
+in[2] => Equal7.IN0
+in[2] => Equal8.IN1
+in[2] => Equal9.IN2
+in[2] => Equal10.IN2
+in[2] => Equal11.IN3
+in[2] => Equal12.IN1
+in[2] => Equal13.IN1
+in[2] => Equal14.IN1
+in[3] => Equal0.IN0
+in[3] => Equal1.IN1
+in[3] => Equal2.IN1
+in[3] => Equal3.IN2
+in[3] => Equal4.IN1
+in[3] => Equal5.IN2
+in[3] => Equal6.IN2
+in[3] => Equal7.IN3
+in[3] => Equal8.IN0
+in[3] => Equal9.IN0
+in[3] => Equal10.IN0
+in[3] => Equal11.IN0
+in[3] => Equal12.IN0
+in[3] => Equal13.IN0
+in[3] => Equal14.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|HexDisp:h1
+in[0] => Equal0.IN3
+in[0] => Equal1.IN0
+in[0] => Equal2.IN3
+in[0] => Equal3.IN1
+in[0] => Equal4.IN3
+in[0] => Equal5.IN1
+in[0] => Equal6.IN3
+in[0] => Equal7.IN2
+in[0] => Equal8.IN3
+in[0] => Equal9.IN1
+in[0] => Equal10.IN3
+in[0] => Equal11.IN2
+in[0] => Equal12.IN3
+in[0] => Equal13.IN2
+in[0] => Equal14.IN3
+in[1] => Equal0.IN2
+in[1] => Equal1.IN3
+in[1] => Equal2.IN0
+in[1] => Equal3.IN0
+in[1] => Equal4.IN2
+in[1] => Equal5.IN3
+in[1] => Equal6.IN1
+in[1] => Equal7.IN1
+in[1] => Equal8.IN2
+in[1] => Equal9.IN3
+in[1] => Equal10.IN1
+in[1] => Equal11.IN1
+in[1] => Equal12.IN2
+in[1] => Equal13.IN3
+in[1] => Equal14.IN2
+in[2] => Equal0.IN1
+in[2] => Equal1.IN2
+in[2] => Equal2.IN2
+in[2] => Equal3.IN3
+in[2] => Equal4.IN0
+in[2] => Equal5.IN0
+in[2] => Equal6.IN0
+in[2] => Equal7.IN0
+in[2] => Equal8.IN1
+in[2] => Equal9.IN2
+in[2] => Equal10.IN2
+in[2] => Equal11.IN3
+in[2] => Equal12.IN1
+in[2] => Equal13.IN1
+in[2] => Equal14.IN1
+in[3] => Equal0.IN0
+in[3] => Equal1.IN1
+in[3] => Equal2.IN1
+in[3] => Equal3.IN2
+in[3] => Equal4.IN1
+in[3] => Equal5.IN2
+in[3] => Equal6.IN2
+in[3] => Equal7.IN3
+in[3] => Equal8.IN0
+in[3] => Equal9.IN0
+in[3] => Equal10.IN0
+in[3] => Equal11.IN0
+in[3] => Equal12.IN0
+in[3] => Equal13.IN0
+in[3] => Equal14.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5part3|HexDisp:h0
+in[0] => Equal0.IN3
+in[0] => Equal1.IN0
+in[0] => Equal2.IN3
+in[0] => Equal3.IN1
+in[0] => Equal4.IN3
+in[0] => Equal5.IN1
+in[0] => Equal6.IN3
+in[0] => Equal7.IN2
+in[0] => Equal8.IN3
+in[0] => Equal9.IN1
+in[0] => Equal10.IN3
+in[0] => Equal11.IN2
+in[0] => Equal12.IN3
+in[0] => Equal13.IN2
+in[0] => Equal14.IN3
+in[1] => Equal0.IN2
+in[1] => Equal1.IN3
+in[1] => Equal2.IN0
+in[1] => Equal3.IN0
+in[1] => Equal4.IN2
+in[1] => Equal5.IN3
+in[1] => Equal6.IN1
+in[1] => Equal7.IN1
+in[1] => Equal8.IN2
+in[1] => Equal9.IN3
+in[1] => Equal10.IN1
+in[1] => Equal11.IN1
+in[1] => Equal12.IN2
+in[1] => Equal13.IN3
+in[1] => Equal14.IN2
+in[2] => Equal0.IN1
+in[2] => Equal1.IN2
+in[2] => Equal2.IN2
+in[2] => Equal3.IN3
+in[2] => Equal4.IN0
+in[2] => Equal5.IN0
+in[2] => Equal6.IN0
+in[2] => Equal7.IN0
+in[2] => Equal8.IN1
+in[2] => Equal9.IN2
+in[2] => Equal10.IN2
+in[2] => Equal11.IN3
+in[2] => Equal12.IN1
+in[2] => Equal13.IN1
+in[2] => Equal14.IN1
+in[3] => Equal0.IN0
+in[3] => Equal1.IN1
+in[3] => Equal2.IN1
+in[3] => Equal3.IN2
+in[3] => Equal4.IN1
+in[3] => Equal5.IN2
+in[3] => Equal6.IN2
+in[3] => Equal7.IN3
+in[3] => Equal8.IN0
+in[3] => Equal9.IN0
+in[3] => Equal10.IN0
+in[3] => Equal11.IN0
+in[3] => Equal12.IN0
+in[3] => Equal13.IN0
+in[3] => Equal14.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

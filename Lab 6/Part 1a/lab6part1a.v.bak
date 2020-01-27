@@ -1,0 +1,8 @@
+module lab6part1a (SW, KEY, LEDR);
+	input [9:0] SW;
+	input [4:0] KEY;
+	output [9:0] LEDR;
+	
+	
+
+endmodule
